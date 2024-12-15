@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <h3 class="text-center my-4">Daftar pembeli</h3>
+                    <h3 class="text-center my-4">Daftar Menu</h3>
                     <h5 class="text-center"><a href="https://santrikoding.com"></a></h5>
                     <hr>
                 </div>

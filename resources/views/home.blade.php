@@ -93,7 +93,7 @@
             <h1>CakeShop</h1>
             <nav>
                 <a href="/" class="me-3 text-decoration-none">Home</a>
-                <a href="/products" class="me-3 text-decoration-none">Pembeli</a>
+                <a href="/products" class="me-3 text-decoration-none">Menu</a>
                 <a href="/about" class="text-decoration-none">About</a>
             </nav>
         </div>
@@ -165,8 +165,9 @@
                                 <p><strong>Ingredients:</strong> Flour, Sugar, Eggs, Butter, Milk, Baking Powder, Vanilla.</p>
                                 </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-warning">Payment</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="/pembayaran" class="btn btn-warning">Payment</a>
+
             </div>
         </div>
     </div>

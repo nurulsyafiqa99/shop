@@ -13,7 +13,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/home');
+            return redirect()->intended('/admin/dashboard');
         }
 
         return back()->withErrors([
@@ -21,3 +21,4 @@ class AuthController extends Controller
         ]);
     }
 }
+

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\PaymentController;
+
 
 Route::get('/', function () {
     return view('home');
@@ -40,6 +42,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/pembayaran', function () {
+    return view('pembayaran');
+});
+
+Route::get('/pembayaran', [PaymentController::class, 'showPaymentPage']);
 
 
 
